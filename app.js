@@ -4,4 +4,15 @@ function toggleLoginform(show){
     document.getElementById('user-card').style.display = show ? 'none' : 'block';
 }
 
-toggleLoginform(false)
+document.getElementById('login-form').addEventListener('submit', async function (e) {
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+    try {
+
+    } catch (error) {
+
+    }
+    
+}
+
+);
